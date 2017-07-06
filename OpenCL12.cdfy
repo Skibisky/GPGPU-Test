@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CudafyModule Version="1.29.5576.13786" Name="RuneCalc" DebugInfo="false" HasCudaSourceCode="false" HasPTX="false" HasBinary="false">
+  <CudaSourceCode></CudaSourceCode>
+  <PTXMODULES />
+  <BinaryModules />
+  <SourceCodes>
+    <SourceCodeFile ID="5a4c38a8-ae3f-4859-b4fa-b9e701e19650" Language="OpenCL" Arch="OpenCL12">I2lmIGRlZmluZWQoY2xfa2hyX2ZwNjQpDQojcHJhZ21hIE9QRU5DTCBFWFRFTlNJT04gY2xfa2hyX2ZwNjQ6IGVuYWJsZQ0KI2VsaWYgZGVmaW5lZChjbF9hbWRfZnA2NCkNCiNwcmFnbWEgT1BFTkNMIEVYVEVOU0lPTiBjbF9hbWRfZnA2NDogZW5hYmxlDQojZW5kaWYNCg0KLy8gQ3VkYWZ5X1Rlc3QuUnVuZUNhbGMNCl9fa2VybmVsICB2b2lkIGNhbGNfcihpbnQgbiwgZ2xvYmFsIGludCogYnVpbGQsIGludCBidWlsZExlbjAsIGludCBidWlsZExlbjEsIGdsb2JhbCBpbnQqIHN0YXQsIGludCBzdGF0TGVuMCwgZ2xvYmFsIGludCogbXVsdCwgaW50IG11bHRMZW4wLCBpbnQgbXVsdExlbjEsIGdsb2JhbCBpbnQqIGZsYXQsIGludCBmbGF0TGVuMCwgaW50IGZsYXRMZW4xLCBnbG9iYWwgaW50KiByZXMsIGludCByZXNMZW4wLCBpbnQgcmVzTGVuMSk7DQoNCi8vIEN1ZGFmeV9UZXN0LlJ1bmVDYWxjDQpfX2tlcm5lbCAgdm9pZCBjYWxjX3IoaW50IG4sIGdsb2JhbCBpbnQqIGJ1aWxkLCBpbnQgYnVpbGRMZW4wLCBpbnQgYnVpbGRMZW4xLCBnbG9iYWwgaW50KiBzdGF0LCBpbnQgc3RhdExlbjAsIGdsb2JhbCBpbnQqIG11bHQsIGludCBtdWx0TGVuMCwgaW50IG11bHRMZW4xLCBnbG9iYWwgaW50KiBmbGF0LCBpbnQgZmxhdExlbjAsIGludCBmbGF0TGVuMSwgZ2xvYmFsIGludCogcmVzLCBpbnQgcmVzTGVuMCwgaW50IHJlc0xlbjEpDQp7DQoJZm9yIChpbnQgaSA9IGdldF9sb2NhbF9zaXplKDApICogZ2V0X2dyb3VwX2lkKDApICsgZ2V0X2xvY2FsX2lkKDApOyBpIDwgbjsgaSArPSBnZXRfbG9jYWxfc2l6ZSgwKSAqIGdldF9udW1fZ3JvdXBzKDApKQ0KCXsNCgkJZm9yIChpbnQgaiA9IDA7IGogPCA2OyBqKyspDQoJCXsNCgkJCWludCBudW0gPSBidWlsZFsoaSkgKiBidWlsZExlbjEgKyAoIGopXTsNCgkJCWZvciAoaW50IGsgPSAwOyBrIDwgODsgaysrKQ0KCQkJew0KCQkJCXJlc1soaSkgKiByZXNMZW4xICsgKCBrKV0gPSBzdGF0WyhrKV0gKiBtdWx0WyhudW0pICogbXVsdExlbjEgKyAoIGspXSArIGZsYXRbKG51bSkgKiBmbGF0TGVuMSArICggayldOw0KCQkJfQ0KCQl9DQoJfQ0KfQ0K</SourceCodeFile>
+  </SourceCodes>
+  <Functions>
+    <CudafyKernelMethod Name="calc_r" Type="Global" IsDummy="false" DummyBehaviour="Default">
+      <Type>Cudafy_Test.RuneCalc</Type>
+      <Assembly>Cudafy Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <AssemblyName>Cudafy Test</AssemblyName>
+      <AssemblyPath>E:\Source\@Trash\Cudafy Test\bin\Release\Cudafy Test.exe</AssemblyPath>
+      <Checksum>1495875391</Checksum>
+      <Parameters>
+        <ReturnType>System.Void</ReturnType>
+        <Parameter Type="Cudafy.GThread" Name="thread" Position="0" />
+        <Parameter Type="System.Int32" Name="n" Position="1" />
+        <Parameter Type="System.Int32[,]" Name="build" Position="2" />
+        <Parameter Type="System.Int32[]" Name="stat" Position="3" />
+        <Parameter Type="System.Int32[,]" Name="mult" Position="4" />
+        <Parameter Type="System.Int32[,]" Name="flat" Position="5" />
+        <Parameter Type="System.Int32[,]" Name="res" Position="6" />
+      </Parameters>
+    </CudafyKernelMethod>
+  </Functions>
+  <Constants />
+  <Types />
+</CudafyModule>
